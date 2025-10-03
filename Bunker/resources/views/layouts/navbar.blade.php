@@ -3,8 +3,8 @@
     <div class="container mx-auto px-6 lg:px-12">
         <div class="flex justify-between items-center h-16">
             <div class="flex items-center space-x-2">
-                <img src="{{ asset('img/bunker.jpg') }}" alt="Logo" width="80" height="100">
-                <span class="font-bold text-gray-800 text-lg">Bunker</span>
+                <a href="/"> <img src="{{ asset('img/bunker.jpg') }}" alt="Logo" width="80" height="100"> </a>
+                <a href="/" <span class="font-bold text-gray-800 text-lg">Bunker</span> </a>
             </div>
 
             <div class="flex space-x-6">
