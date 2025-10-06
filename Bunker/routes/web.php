@@ -58,7 +58,7 @@ Route::post('/adminlogout', [AdminAuthController::class, 'logout'])->name('admin
 // Admin routes (allemaal beveiligd)
 Route::middleware(['auth', 'is_admin'])->group(function () {
     Route::get('/admindashboard', [AdminDashboardController::class, 'dashboard'])
-        ->name('admin.admindashboard');
+    ->name('admin.admindashboard');
 
 
     // Openingstijden
