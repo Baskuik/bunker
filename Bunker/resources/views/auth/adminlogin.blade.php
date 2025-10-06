@@ -15,7 +15,6 @@
 <body>
     <div class="login-container">
         <h2>Admin Login</h2>
-
         @if ($errors->any())
             <div class="error">
                 @foreach ($errors->all() as $error)

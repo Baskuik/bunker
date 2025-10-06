@@ -47,7 +47,7 @@ class Kernel extends HttpKernel
      * Route middleware.
      *
      * Deze kunnen per route of routegroep worden gebruikt.
-     *
+     *  
      * @var array
      */
     protected $routeMiddleware = [
